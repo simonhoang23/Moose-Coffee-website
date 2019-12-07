@@ -1,0 +1,92 @@
+/* MOBILE SCREEN SIZE */
+
+/* DEFINE VARIABLES*/
+
+:root {
+  --main__background__colour: #f6cdcc;
+  --main__text__colour: #000;
+  --main__line__height: 1.3;
+  --container__width: 1500px;
+}
+
+body {
+  color: var(--main__text__colour);
+  font-family: "Montserrat", sans-serif;
+  line-height: var(--main__line__height);
+}
+
+/* MOBILE WIDTH SIZE */
+
+section {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.mobile__header__container {
+  border: 1px red solid;
+  height: 80px;
+
+}
+
+.mobile__header__grid {
+
+}
+
+.mobile__header__cart__icon {
+  width: 30px;
+}
+
+.mobile__header__number {
+  font-size: 15px;
+  background-color: rgba(28,28,28,.87);
+  color: #fff;
+  padding: 5px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: -9px;
+  margin-left: -10px;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  min-width: 15px;
+  line-height: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DESKTOP SCREEN SIZE - min-width: 720px DESKTOP SIZE STARTS HERE (720PX) */
+
+@media only screen and (min-width: 775px) {
+  section {
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+
+  /* HEADER */
+
+  .header__container {
+    height: 110px;
+    padding: 0 20px;
+  }
+
+
+}
