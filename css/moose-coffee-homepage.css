@@ -227,7 +227,21 @@ input[type=submit]:hover {
 }
 
 
+.footer__subscribe__p__2 {
+  font-size: 13px;
+  padding-bottom: 20px;
+  line-height: 1.6;
+  color: #fff;
+}
 
+
+.footer__links__container {
+  border: 1px red solid;
+}
+
+.footer__links__grid {
+  display: flex;
+}
 
 
 
