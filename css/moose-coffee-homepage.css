@@ -11,7 +11,7 @@
 
 body {
   color: var(--main__text__colour);
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   line-height: var(--main__line__height);
 }
 
@@ -63,6 +63,26 @@ section {
   width: 30px;
 }
 
+/* DESKTOP */
+
+.desktop__header__container {
+  display: none;
+}
+
+.desktop__header__logo {
+  max-width: 320px;
+  display: none;
+}
+
+.desktop__header__logo__size {
+  width: 100%;
+  display: none;
+}
+
+
+
+
+
 
 .hero__images {
   max-width: 290px;
@@ -100,7 +120,6 @@ section {
 }
 
 .box__grid {
-
 }
 
 .box__block {
@@ -109,15 +128,13 @@ section {
 
 .box__grid__image {
   width: 100%;
-  }
+}
 
 .box__grid__image__width {
   max-width: 285px;
   display: block;
   margin: 0 auto;
 }
-
-
 
 .box__grid__h4 {
   text-transform: uppercase;
@@ -149,12 +166,11 @@ section {
   transition-duration: 0.3s;
   cursor: pointer;
   text-transform: uppercase;
-  
 }
 
 .box__grid__button__hover {
-  background-color: white; 
-  color: black; 
+  background-color: #fff;
+  color: black;
   border: 2px solid #000;
 }
 
@@ -167,16 +183,14 @@ section {
   background-color: #adb6a8;
 }
 
-
 .footer__subscribe__block {
-
 }
 
 .footer__social__media__icons {
   width: 50px;
   padding: 50px 0;
+  margin-left: -15px;
 }
-
 
 .footer__subscribe__h2 {
   text-transform: uppercase;
@@ -194,24 +208,19 @@ section {
   color: #fff;
 }
 
-
 .footer__subscribe__form {
   margin: 20px 0;
 }
 
-input[type=text] {
+input[type="text"] {
   width: 100%;
   padding: 16px;
-  /* margin: 8px 0; */
   display: inline-block;
   box-sizing: border-box;
   font-size: 13px;
-  
 }
 
-
-
-input[type=submit] {
+input[type="submit"] {
   color: #fff;
   border: 2px solid #fff;
   padding: 16px 32px;
@@ -220,12 +229,11 @@ input[type=submit] {
   text-transform: uppercase;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
   opacity: 0.8;
   background-color: #fff;
-  color:#000;
+  color: #000;
 }
-
 
 .footer__subscribe__p__2 {
   font-size: 13px;
@@ -234,13 +242,41 @@ input[type=submit]:hover {
   color: #fff;
 }
 
-
 .footer__links__container {
-  border: 1px red solid;
+  padding: 30px 0;
 }
 
 .footer__links__grid {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.footer__links__space a {
+  padding-right: 20px;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  line-height: 2;
+}
+
+.footer__links__space__no__space a {
+  padding-right: 0;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  line-height: 2;
+}
+
+
+.footer__p {
+  font-size: 13px;
+  padding-bottom: 30px;
+  line-height: 2;
+  color: #dedede;
 }
 
 
@@ -266,5 +302,120 @@ input[type=submit]:hover {
   .header__container {
     height: 110px;
     padding: 0 20px;
+    display: block;
   }
+
+.desktop__header__container {
+  
+  display: block;
+  padding-top: 50px;
+}
+
+.desktop__header__logo {
+  max-width: 300px;
+  display: block;
+}
+
+.desktop__header__logo__size {
+  width: 100%;
+  display: block;
+}
+
+.desktop__header__block {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.desktop__header__nav__flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.desktop__header__nav__space a {
+  text-decoration: none;
+  color: var(--main__text__colour);
+  text-transform: uppercase;
+  font-size: 15px;
+  padding-left: 30px;
+}
+
+.desktop__header__nav__right__space a {
+  text-decoration: none;
+  color: var(--main__text__colour);
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 0 30px;
+}
+
+.desktop__header__nav__space a :hover {
+text-decoration: underline;
+}
+
+
+/* MOBILE */
+
+.mobile__header__container {
+  margin-bottom: 30px;
+  height: 75px;
+  display: none;
+}
+
+.mobile__header__grid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10px;
+  display: none;
+}
+
+.mobile__header__cart__icon {
+  width: 30px;
+  padding-left: 30px;
+  
+}
+
+.mobile__header__cart__icon__a {
+  text-decoration: none;
+}
+
+.mobile__header__number {
+  font-size: 15px;
+  background-color: rgba(28, 28, 28, 0.87);
+  color: #fff;
+  padding: 5px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: -9px;
+  margin-left: -10px;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  min-width: 15px;
+  line-height: 15px;
+
+}
+
+.mobile__header__logo__size {
+  width: 80px;
+  display: none;
+}
+
+.mobile__header__hamburger__icon {
+  width: 30px;
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
 }
