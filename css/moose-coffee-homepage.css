@@ -18,7 +18,7 @@ body {
 /* MOBILE WIDTH SIZE */
 
 section {
-  max-width: 1500px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -63,7 +63,11 @@ section {
   width: 30px;
 }
 
-/* DESKTOP */
+
+
+
+
+/* DESKTOP --------------------------- DISPLAY: NONE; */
 
 .desktop__header__container {
   display: none;
@@ -74,14 +78,19 @@ section {
   display: none;
 }
 
-.desktop__header__logo__size {
-  width: 100%;
+
+
+.desktop__hero__images__size {
   display: none;
 }
 
+.desktop__hero__images__left {
+  max-width: 995px;
+  padding-right: 30px;
+  display: none;
+}
 
-
-
+/* DESKTOP --------------------------- DISPLAY: NONE; */
 
 
 .hero__images {
@@ -293,22 +302,24 @@ input[type="submit"]:hover {
 
 @media only screen and (min-width: 775px) {
   section {
-    max-width: 1500px;
+    max-width: 1400px;
     margin: 0 auto;
+    padding: 0 15px;
   }
 
   /* HEADER */
 
-  .header__container {
+  /* .header__container {
     height: 110px;
     padding: 0 20px;
     display: block;
-  }
+  } */
 
 .desktop__header__container {
   
   display: block;
   padding-top: 50px;
+  border: 1px red solid;
 }
 
 .desktop__header__logo {
@@ -325,8 +336,6 @@ input[type="submit"]:hover {
   display: flex;
   justify-content: space-between;
 }
-
-
 
 .desktop__header__nav__flex {
   display: flex;
@@ -354,8 +363,67 @@ input[type="submit"]:hover {
 text-decoration: underline;
 }
 
+/* DESKTOP HERO */
 
-/* MOBILE */
+.desktop__hero__container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border: 1px red solid;
+}
+
+.desktop__hero__grid {
+  display: flex;
+}
+
+.desktop__hero__images__left {
+  max-width: 995px;
+  padding-right: 30px;
+  display: block;
+}
+
+.desktop__hero__images__left__size {
+  display: block;
+  width: 100%;
+}
+
+.desktop__hero__images__size {
+  display: block;
+  width: 100%;
+}
+
+.desktop__hero__images__right {
+  max-width: 474px;
+}
+
+.desktop__hero__images__size {
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.no__padding__bottom {
+  padding-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE --------------------------- DISPLAY: NONE; */
 
 .mobile__header__container {
   margin-bottom: 30px;
@@ -408,9 +476,20 @@ text-decoration: underline;
   display: none;
 }
 
+.hero__images {
+  max-width: 290px;
+  display: block;
+  margin: 0 auto;
+  display: none;
+}
 
+.hero__images__size {
+  width: 100%;
+  padding-bottom: 10px;
+  display: none;
+}
 
-
+/* MOBILE --------------------------- DISPLAY: NONE; */
 
 
 
