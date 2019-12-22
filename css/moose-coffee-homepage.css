@@ -30,7 +30,7 @@ section {
 
 .mobile__header__grid {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding-top: 10px;
 }
@@ -90,11 +90,17 @@ section {
   display: none;
 }
 
+.desktop__hero__heading {
+  display: none;
+}
+
+
+
 /* DESKTOP --------------------------- DISPLAY: NONE; */
 
 
 .hero__images {
-  max-width: 290px;
+  max-width: 740px;
   display: block;
   margin: 0 auto;
 }
@@ -140,7 +146,7 @@ section {
 }
 
 .box__grid__image__width {
-  max-width: 285px;
+  max-width: 740px;
   display: block;
   margin: 0 auto;
 }
@@ -319,7 +325,7 @@ input[type="submit"]:hover {
   
   display: block;
   padding-top: 50px;
-  border: 1px red solid;
+  
 }
 
 .desktop__header__logo {
@@ -359,16 +365,24 @@ input[type="submit"]:hover {
   padding: 0 30px;
 }
 
-.desktop__header__nav__space a :hover {
+/* .desktop__header__nav__space a:link {
+  text-decoration: none;
+} */
+
+.desktop__header__nav__space a:hover {
 text-decoration: underline;
 }
 
-/* DESKTOP HERO */
+.desktop__header__nav__right__space a:hover {
+  text-decoration: underline;
+  }
+
+/* HERO */
 
 .desktop__hero__container {
   margin-top: 100px;
   margin-bottom: 100px;
-  border: 1px red solid;
+  
 }
 
 .desktop__hero__grid {
@@ -404,7 +418,30 @@ text-decoration: underline;
   padding-bottom: 0;
 }
 
+.desktop__hero__heading {
+  display: block;
+}
 
+.desktop__hero__heading__h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: bold;
+  padding: 0 15px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  line-height: 1.2;
+  display: block;
+}
+
+.desktop__hero__heading__p {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 0 15px;
+  line-height: 1.6;
+  display: block;
+}
 
 
 
@@ -489,6 +526,28 @@ text-decoration: underline;
   display: none;
 }
 
+
+.hero__heading__h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 0 15px;
+  padding-bottom: 10px;
+  margin-top: 50px;
+  line-height: 1.2;
+  display: none;
+}
+
+.hero__heading__p {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 0 15px;
+  padding-bottom: 30px;
+  line-height: 1.6;
+  display: none;
+}
 /* MOBILE --------------------------- DISPLAY: NONE; */
 
 
