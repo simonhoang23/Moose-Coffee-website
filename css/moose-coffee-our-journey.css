@@ -39,7 +39,7 @@ section {
   left: 0px;
   background-color: #fff;
   width: 100%;
-  margin-left: 10px;
+  padding-left: 15px;
 }
 
 .mobile__header__cart__icon {
@@ -68,7 +68,7 @@ section {
 
 .mobile__header__hamburger__icon {
   width: 30px;
-  margin-right: 20px;
+  margin-right: 30px;
 }
 
 .hero__images {
