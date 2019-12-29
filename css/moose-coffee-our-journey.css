@@ -82,6 +82,71 @@ section {
   padding-bottom: 10px;
 }
 
+.our__journey__text__container {
+  
+}
+
+.our__journey__flex {
+
+}
+
+.our__journey__h4 {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 300;
+  padding-bottom: 10px;
+  margin-top: 30px;
+  line-height: 1.2;
+}
+
+.our__journey__p__bold {
+  font-size: 13px;
+  padding-bottom: 30px;
+  line-height: 1.6;
+  color: #666666;
+  font-weight: bold;
+}
+
+.our__journey__p {
+  font-size: 13px;
+  padding-bottom: 30px;
+  line-height: 1.6;
+  color: #666666;
+}
+
+.our__journey__menu__button {
+  background-color: #fff;
+  border: none;
+  color: #000;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.3s; /* Safari */
+  transition-duration: 0.3s;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.our__journey__menu__button__hover {
+  background-color: #fff;
+  color: black;
+  border: 2px solid #000;
+}
+
+.our__journey__menu__button__hover:hover {
+  background-color: #000;
+  color: white;
+}
+
+
+
+
+
+
+
 .background__colour {
   background-color: #adb6a8;
 }
@@ -280,7 +345,7 @@ input[type="submit"]:hover {
   }
 
 
-  
+
   /* HERO */
 
   
