@@ -83,11 +83,9 @@ section {
 }
 
 .our__journey__text__container {
-  
 }
 
 .our__journey__flex {
-
 }
 
 .our__journey__h4 {
@@ -134,6 +132,7 @@ section {
   background-color: #fff;
   color: black;
   border: 2px solid #000;
+  margin-bottom: 30px;
 }
 
 .our__journey__menu__button__hover:hover {
@@ -141,11 +140,12 @@ section {
   color: white;
 }
 
+.our__journey__logos__container {
+}
 
-
-
-
-
+.our__journey__logos {
+  text-align: center;
+}
 
 .background__colour {
   background-color: #adb6a8;
@@ -293,6 +293,7 @@ input[type="submit"]:hover {
   .desktop__header__container {
     display: block;
     padding-top: 50px;
+    margin-bottom: 100px;
   }
 
   .desktop__header__logo {
@@ -344,11 +345,81 @@ input[type="submit"]:hover {
     text-decoration: underline;
   }
 
-
-
   /* HERO */
 
-  
+  .our__journey__flex {
+    width: 700px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .our__journey__h4 {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 300;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    line-height: 1.2;
+  }
+
+  .our__journey__p__bold {
+    font-size: 13px;
+    padding-bottom: 30px;
+    line-height: 1.6;
+    color: #666666;
+    font-weight: bold;
+  }
+
+  .our__journey__p {
+    font-size: 13px;
+    padding-bottom: 30px;
+    line-height: 1.6;
+    color: #666666;
+  }
+
+  .our__journey__menu__button {
+    background-color: #fff;
+    border: none;
+    color: #000;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+  .our__journey__menu__button__hover {
+    background-color: #fff;
+    color: black;
+    border: 2px solid #000;
+    margin-bottom: 30px;
+  }
+
+  .our__journey__menu__button__hover:hover {
+    background-color: #000;
+    color: white;
+  }
+
+  .our__journey__logos {
+    text-align: start;
+    width: 700px;
+    margin: 0 auto;
+  }
+
+  .our__journey__logos__size {
+    width: 15%;
+    padding-right: 20px;
+    margin-bottom: 50px;
+  }
+
+  .our__journey__logos__size__no__padding__right {
+    padding-right: 0;
+  }
 
   .footer__form__flex {
     display: flex;
@@ -415,20 +486,15 @@ input[type="submit"]:hover {
     max-width: 1400px;
     display: block;
     margin: 0 auto;
-    
   }
 
   .our__journey__hero__images__size {
     width: 100%;
     padding-bottom: 30px;
-    
   }
+
+  
 
 
   /* MOBILE --------------------------- DISPLAY: NONE; */
-
-
-
-
-
 }
