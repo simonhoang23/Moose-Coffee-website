@@ -72,6 +72,28 @@ section {
 }
 
 
+.our__menu__images__container {
+ 
+}
+
+.our__menu__images__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+
+.our__menu__images__block {
+  /* max-width: 145px; */
+height: 175px;
+
+}
+
+.our__menu__images__size {
+width: 100%;
+display: block;
+object-fit: cover;
+}
 
 
 
@@ -303,96 +325,10 @@ input[type="submit"]:hover {
 
   /* HERO */
 
-  .desktop__hero__container {
-    margin-top: 100px;
-    margin-bottom: 100px;
-  }
 
-  .desktop__hero__grid {
-    display: flex;
-  }
 
-  .desktop__hero__images__left {
-    max-width: 995px;
-    padding-right: 30px;
-    display: block;
-  }
 
-  .desktop__hero__images__left__size {
-    display: block;
-    width: 100%;
-  }
-
-  .desktop__hero__images__size {
-    display: block;
-    width: 100%;
-  }
-
-  .desktop__hero__images__right {
-    max-width: 474px;
-  }
-
-  .desktop__hero__images__size {
-    width: 100%;
-    padding-bottom: 30px;
-  }
-
-  .no__padding__bottom {
-    padding-bottom: 0;
-  }
-
-  .desktop__hero__heading {
-    display: block;
-  }
-
-  .desktop__hero__heading__h1 {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 35px;
-    font-weight: bold;
-    padding: 0 15px;
-    padding-bottom: 20px;
-    margin-top: 50px;
-    line-height: 1.2;
-    display: block;
-  }
-
-  .desktop__hero__heading__p {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 13px;
-    padding: 0 15px;
-    line-height: 1.6;
-    display: block;
-  }
-
-  .box__grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 40px;
-  }
-
-  .footer__form__flex {
-    display: flex;
-  }
   
-  .footer__subscribe__form {
-    margin: 20px 0;
-    width: 280px;
-    margin-right: 10px;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -450,41 +386,7 @@ input[type="submit"]:hover {
     display: none;
   }
 
-  .hero__images {
-    max-width: 290px;
-    display: block;
-    margin: 0 auto;
-    display: none;
-  }
-
-  .hero__images__size {
-    width: 100%;
-    padding-bottom: 10px;
-    display: none;
-  }
-
-  .hero__heading__h1 {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 22px;
-    font-weight: bold;
-    padding: 0 15px;
-    padding-bottom: 10px;
-    margin-top: 50px;
-    line-height: 1.2;
-    display: none;
-  }
-
-  .hero__heading__p {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 13px;
-    padding: 0 15px;
-    padding-bottom: 30px;
-    line-height: 1.6;
-    display: none;
-  }
-
+  
   /* MOBILE --------------------------- DISPLAY: NONE; */
 
 
