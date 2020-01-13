@@ -330,7 +330,7 @@ input[type="submit"]:hover {
   }
 
   .desktop__header__logo {
-    max-width: 300px;
+    max-width: 150px;
     display: block;
   }
 
