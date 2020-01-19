@@ -79,6 +79,9 @@ section {
   grid-gap: 15px;
 }
 
+.shop__grid__a {
+  text-decoration: none;
+}
 
 .shop__image__max__width {
   /* max-width: 138px; */
@@ -90,9 +93,7 @@ section {
     object-fit: cover;
 }
 
-.shop__grid__a {
-  text-decoration: none;
-}
+
 
 .shop__grid__h3  {
   text-transform: uppercase;
