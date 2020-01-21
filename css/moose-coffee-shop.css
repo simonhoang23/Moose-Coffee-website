@@ -89,7 +89,6 @@ section {
 
 .shop__image__size {
     width: 100%;
-    /* height: 200px; */
     object-fit: cover;
 }
 
@@ -108,7 +107,7 @@ section {
 
 .shop__grid__p  {
   font-size: 13px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   color: #666666;
   text-decoration: none;
 }
