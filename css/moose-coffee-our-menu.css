@@ -396,6 +396,10 @@ input[type="submit"]:hover {
     justify-content: center;
   }
 
+  .desktop__our__menu__box__grid__button__center a {
+    text-decoration: none;
+  }
+
   .desktop__our__menu__box__grid__button__flex {
     display: flex;
     justify-content: center;
@@ -417,6 +421,7 @@ input[type="submit"]:hover {
     cursor: pointer;
     text-transform: uppercase;
   }
+  
 
   .desktop__our__menu__box__grid__button__hover {
     display: block;
@@ -436,8 +441,13 @@ input[type="submit"]:hover {
     margin-right: 100px;
   }
 
+.desktop__our__menu__box__grid__button__space a {
+  text-decoration: none;
+}
 
-
+.desktop__our__menu__box__grid__button__nospace a {
+  text-decoration: none;
+}
 
 
 
