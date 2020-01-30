@@ -39,7 +39,7 @@ section {
   left: 0px;
   background-color: #fff;
   width: 100%;
-  padding-left: 15px;
+  padding-left: 10px;
 }
 
 .mobile__header__cart__icon {
@@ -68,51 +68,50 @@ section {
 
 .mobile__header__hamburger__icon {
   width: 30px;
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
-.our__journey__hero__container {
-  max-width: 740px;
-  display: block;
-  margin: 0 auto;
+/* OUR MENU */
+
+.our__menu__images__container {
 }
 
-.our__journey__hero__images__size {
+.our__menu__images__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.our__menu__images__block {
+  /* max-width: 145px; */
+  /* height: 175px; */
+}
+
+.our__menu__images__size {
   width: 100%;
-  padding-bottom: 10px;
+  height: 200px;
+  display: block;
+  object-fit: cover;
 }
 
-.our__journey__text__container {
+.our__menu__h1__container {
 }
 
-.our__journey__flex {
-}
-
-.our__journey__h4 {
+.our__menu__h1 {
+  text-align: center;
   text-transform: uppercase;
-  font-size: 13px;
-  font-weight: 300;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 0 15px;
   padding-bottom: 10px;
-  margin-top: 30px;
+  margin: 30px 0;
   line-height: 1.2;
 }
 
-.our__journey__p__bold {
-  font-size: 13px;
-  padding-bottom: 30px;
-  line-height: 1.6;
-  color: #666666;
-  font-weight: bold;
+.our__menu__box__grid__button__flex {
+  text-align: center;
 }
 
-.our__journey__p {
-  font-size: 13px;
-  padding-bottom: 30px;
-  line-height: 1.6;
-  color: #666666;
-}
-
-.our__journey__menu__button {
+.our__menu__box__grid__button {
   background-color: #fff;
   border: none;
   color: #000;
@@ -128,23 +127,16 @@ section {
   text-transform: uppercase;
 }
 
-.our__journey__menu__button__hover {
+.our__menu__box__grid__button__hover {
   background-color: #fff;
   color: black;
   border: 2px solid #000;
   margin-bottom: 30px;
 }
 
-.our__journey__menu__button__hover:hover {
+.our__menu__box__grid__button__hover:hover {
   background-color: #000;
   color: white;
-}
-
-.our__journey__logos__container {
-}
-
-.our__journey__logos {
-  text-align: center;
 }
 
 .background__colour {
@@ -246,6 +238,12 @@ input[type="submit"]:hover {
   color: #dedede;
 }
 
+
+
+
+
+
+
 /* DESKTOP --------------------------- DISPLAY: NONE; */
 
 .desktop__header__container {
@@ -271,7 +269,20 @@ input[type="submit"]:hover {
   display: none;
 }
 
+.desktop__our__menu__box__grid__button {
+  display: none;
+}
+
+.desktop__our__menu__box__grid__button__hover {
+  display: none;
+}
+
 /* DESKTOP --------------------------- DISPLAY: NONE; */
+
+
+
+
+
 
 /* DESKTOP SCREEN SIZE - min-width: 720px DESKTOP SIZE STARTS HERE (720PX) */
 
@@ -293,7 +304,6 @@ input[type="submit"]:hover {
   .desktop__header__container {
     display: block;
     padding-top: 50px;
-    margin-bottom: 100px;
   }
 
   .desktop__header__logo {
@@ -347,37 +357,56 @@ input[type="submit"]:hover {
 
   /* HERO */
 
-  .our__journey__flex {
-    width: 700px;
-    margin: 0 auto;
+  .our__menu__images__container {
+    margin-top: 100px;
+  }
+
+  .our__menu__images__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .our__menu__images__size {
+    width: 100%;
+    height: 300px;
     display: block;
+    object-fit: cover;
   }
 
-  .our__journey__h4 {
+  .our__menu__h1__width {
+    width: 665px;
+    margin: 0 auto;
+  }
+
+  .our__menu__h1 {
     text-transform: uppercase;
-    font-size: 13px;
-    font-weight: 300;
-    padding-bottom: 10px;
-    margin-top: 30px;
-    line-height: 1.2;
-  }
-
-  .our__journey__p__bold {
-    font-size: 13px;
-    padding-bottom: 30px;
-    line-height: 1.6;
-    color: #666666;
+    font-size: 22px;
     font-weight: bold;
+    padding: 0 15px;
+    padding-bottom: 10px;
+    margin: 30px 0;
+    line-height: 1.2;
+
   }
 
-  .our__journey__p {
-    font-size: 13px;
-    padding-bottom: 30px;
-    line-height: 1.6;
-    color: #666666;
+  /* HERO BUTTONS */
+
+  .desktop__our__menu__box__grid__button__center {
+    display: flex;
+    justify-content: center;
   }
 
-  .our__journey__menu__button {
+  .desktop__our__menu__box__grid__button__center a {
+    text-decoration: none;
+  }
+
+  .desktop__our__menu__box__grid__button__flex {
+    display: flex;
+    justify-content: center;
+  }
+
+  .desktop__our__menu__box__grid__button {
+    display: block;
     background-color: #fff;
     border: none;
     color: #000;
@@ -392,34 +421,44 @@ input[type="submit"]:hover {
     cursor: pointer;
     text-transform: uppercase;
   }
+  
 
-  .our__journey__menu__button__hover {
+  .desktop__our__menu__box__grid__button__hover {
+    display: block;
     background-color: #fff;
     color: black;
     border: 2px solid #000;
     margin-bottom: 30px;
   }
 
-  .our__journey__menu__button__hover:hover {
+  .desktop__our__menu__box__grid__button__hover:hover {
     background-color: #000;
     color: white;
+    display: block;
   }
 
-  .our__journey__logos {
-    text-align: start;
-    width: 700px;
-    margin: 0 auto;
+  .desktop__our__menu__box__grid__button__space {
+    margin-right: 100px;
   }
 
-  .our__journey__logos__size {
-    width: 15%;
-    padding-right: 20px;
-    margin-bottom: 50px;
-  }
+.desktop__our__menu__box__grid__button__space a {
+  text-decoration: none;
+}
 
-  .our__journey__logos__size__no__padding__right {
-    padding-right: 0;
-  }
+.desktop__our__menu__box__grid__button__nospace a {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+  /* FOOTER */
+
 
   .footer__form__flex {
     display: flex;
@@ -430,6 +469,17 @@ input[type="submit"]:hover {
     width: 280px;
     margin-right: 10px;
   }
+
+
+
+
+
+
+
+
+
+
+
 
   /* MOBILE --------------------------- DISPLAY: NONE; */
 
@@ -482,19 +532,57 @@ input[type="submit"]:hover {
     display: none;
   }
 
-  .our__journey__hero__container {
-    max-width: 1400px;
-    display: block;
-    margin: 0 auto;
+
+  .our__menu__box__grid__button__flex {
+    text-align: center;
+    display: none;
   }
 
-  .our__journey__hero__images__size {
-    width: 100%;
-    padding-bottom: 30px;
+  .our__menu__box__grid__button {
+    background-color: #fff;
+    border: none;
+    color: #000;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;
+    cursor: pointer;
+    text-transform: uppercase;
+    display: none;
   }
 
-  
+  .our__menu__box__grid__button__hover {
+    background-color: #fff;
+    color: black;
+    border: 2px solid #000;
+    margin-bottom: 30px;
+    display: none;
+  }
 
+  .our__menu__box__grid__button__hover:hover {
+    background-color: #000;
+    color: white;
+    display: none;
+  }
 
   /* MOBILE --------------------------- DISPLAY: NONE; */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
