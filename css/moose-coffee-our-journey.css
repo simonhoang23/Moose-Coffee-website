@@ -86,6 +86,7 @@ section {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .our__journey__text__container {
 <<<<<<< HEAD
   
@@ -262,12 +263,52 @@ section {
   width: 100%;
 }
 
+=======
+.hero__heading__h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 0 15px;
+  padding-bottom: 10px;
+  margin-top: 50px;
+  line-height: 1.2;
+}
+
+.hero__heading__p {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 0 15px;
+  padding-bottom: 30px;
+  line-height: 1.6;
+}
+
+.box__container {
+  padding: 0 15px;
+}
+
+.box__grid {
+}
+
+.box__block {
+  margin-bottom: 50px;
+}
+
+.box__grid__image {
+  width: 100%;
+}
+
+>>>>>>> parent of 17c4b22... Merge branch 'master' of https://github.com/simonhoang23/Moose-Coffee-website
 .box__grid__image__width {
   max-width: 740px;
   display: block;
   margin: 0 auto;
 }
 
+<<<<<<< HEAD
+>>>>>>> parent of 17c4b22... Merge branch 'master' of https://github.com/simonhoang23/Moose-Coffee-website
+=======
 >>>>>>> parent of 17c4b22... Merge branch 'master' of https://github.com/simonhoang23/Moose-Coffee-website
 .box__grid__h4 {
   text-transform: uppercase;
@@ -278,6 +319,7 @@ section {
   line-height: 1.2;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -307,12 +349,16 @@ section {
 =======
 .box__grid__p {
 >>>>>>> parent of 17c4b22... Merge branch 'master' of https://github.com/simonhoang23/Moose-Coffee-website
+=======
+.box__grid__p {
+>>>>>>> parent of 17c4b22... Merge branch 'master' of https://github.com/simonhoang23/Moose-Coffee-website
   font-size: 13px;
   padding-bottom: 30px;
   line-height: 1.6;
   color: #666666;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -335,6 +381,9 @@ section {
 =======
 .box__grid__button {
 >>>>>>> parent of c263cec... Revert "Revert "Merge branch 'master' of https://github.com/simonhoang23/Moose-Coffee-website""
+=======
+.box__grid__button {
+>>>>>>> parent of 17c4b22... Merge branch 'master' of https://github.com/simonhoang23/Moose-Coffee-website
 =======
 .box__grid__button {
 >>>>>>> parent of 17c4b22... Merge branch 'master' of https://github.com/simonhoang23/Moose-Coffee-website
@@ -369,6 +418,7 @@ section {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
@@ -389,6 +439,8 @@ section {
 >>>>>>> parent of c263cec... Revert "Revert "Merge branch 'master' of https://github.com/simonhoang23/Moose-Coffee-website""
 =======
 >>>>>>> parent of c263cec... Revert "Revert "Merge branch 'master' of https://github.com/simonhoang23/Moose-Coffee-website""
+=======
+>>>>>>> parent of 17c4b22... Merge branch 'master' of https://github.com/simonhoang23/Moose-Coffee-website
 =======
 >>>>>>> parent of 17c4b22... Merge branch 'master' of https://github.com/simonhoang23/Moose-Coffee-website
 .background__colour {
@@ -611,6 +663,7 @@ input[type="submit"]:hover {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   
 =======
   /* HERO */
@@ -619,6 +672,8 @@ input[type="submit"]:hover {
 >>>>>>> parent of c263cec... Revert "Revert "Merge branch 'master' of https://github.com/simonhoang23/Moose-Coffee-website""
 =======
 >>>>>>> parent of c263cec... Revert "Revert "Merge branch 'master' of https://github.com/simonhoang23/Moose-Coffee-website""
+=======
+>>>>>>> parent of 17c4b22... Merge branch 'master' of https://github.com/simonhoang23/Moose-Coffee-website
 =======
 >>>>>>> parent of 17c4b22... Merge branch 'master' of https://github.com/simonhoang23/Moose-Coffee-website
   .desktop__hero__container {
@@ -778,6 +833,7 @@ input[type="submit"]:hover {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 >>>>>>> parent of 34d3898... Revert "Merge branch 'master' of https://github.com/simonhoang23/Moose-Coffee-website"
@@ -793,10 +849,14 @@ input[type="submit"]:hover {
 =======
     display: none;
 >>>>>>> parent of 17c4b22... Merge branch 'master' of https://github.com/simonhoang23/Moose-Coffee-website
+=======
+    display: none;
+>>>>>>> parent of 17c4b22... Merge branch 'master' of https://github.com/simonhoang23/Moose-Coffee-website
   }
 
   .hero__images__size {
     width: 100%;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -855,6 +915,12 @@ input[type="submit"]:hover {
     display: none;
   }
 
+=======
+    padding-bottom: 10px;
+    display: none;
+  }
+
+>>>>>>> parent of 17c4b22... Merge branch 'master' of https://github.com/simonhoang23/Moose-Coffee-website
   .hero__heading__h1 {
     text-align: center;
     text-transform: uppercase;
@@ -866,8 +932,12 @@ input[type="submit"]:hover {
     line-height: 1.2;
     display: none;
   }
+<<<<<<< HEAD
 
 >>>>>>> parent of c263cec... Revert "Revert "Merge branch 'master' of https://github.com/simonhoang23/Moose-Coffee-website""
+=======
+
+>>>>>>> parent of 17c4b22... Merge branch 'master' of https://github.com/simonhoang23/Moose-Coffee-website
 =======
 
 >>>>>>> parent of 17c4b22... Merge branch 'master' of https://github.com/simonhoang23/Moose-Coffee-website
