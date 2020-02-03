@@ -71,22 +71,73 @@ section {
   margin-right: 20px;
 }
 
+/* OUR MENU */
 
-/* MOBILE HERO */
+.our__menu__images__container {
+}
 
+.our__menu__images__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
+.our__menu__images__block {
+  /* max-width: 145px; */
+  /* height: 175px; */
+}
 
+.our__menu__images__size {
+  width: 100%;
+  height: 200px;
+  display: block;
+  object-fit: cover;
+}
 
+.our__menu__h1__container {
+}
 
+.our__menu__h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 0 15px;
+  padding-bottom: 10px;
+  margin: 30px 0;
+  line-height: 1.2;
+}
 
+.our__menu__box__grid__button__flex {
+  text-align: center;
+}
 
+.our__menu__box__grid__button {
+  background-color: #fff;
+  border: none;
+  color: #000;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.3s; /* Safari */
+  transition-duration: 0.3s;
+  cursor: pointer;
+  text-transform: uppercase;
+}
 
+.our__menu__box__grid__button__hover {
+  background-color: #fff;
+  color: black;
+  border: 2px solid #000;
+  margin-bottom: 30px;
+}
 
-
-
-
-
-
+.our__menu__box__grid__button__hover:hover {
+  background-color: #000;
+  color: white;
+}
 
 .background__colour {
   background-color: #adb6a8;
@@ -187,6 +238,12 @@ input[type="submit"]:hover {
   color: #dedede;
 }
 
+
+
+
+
+
+
 /* DESKTOP --------------------------- DISPLAY: NONE; */
 
 .desktop__header__container {
@@ -212,17 +269,15 @@ input[type="submit"]:hover {
   display: none;
 }
 
+.desktop__our__menu__box__grid__button {
+  display: none;
+}
+
+.desktop__our__menu__box__grid__button__hover {
+  display: none;
+}
+
 /* DESKTOP --------------------------- DISPLAY: NONE; */
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -300,16 +355,99 @@ input[type="submit"]:hover {
     text-decoration: underline;
   }
 
-
-<<<<<<< HEAD
-  
-=======
-
->>>>>>> parent of 34d3898... Revert "Merge branch 'master' of https://github.com/simonhoang23/Moose-Coffee-website"
   /* HERO */
 
+  .our__menu__images__container {
+    margin-top: 100px;
+  }
+
+  .our__menu__images__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .our__menu__images__size {
+    width: 100%;
+    height: 300px;
+    display: block;
+    object-fit: cover;
+  }
+
+  .our__menu__h1__width {
+    width: 665px;
+    margin: 0 auto;
+  }
+
+  .our__menu__h1 {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 0 15px;
+    padding-bottom: 10px;
+    margin: 30px 0;
+    line-height: 1.2;
+
+  }
+
+  /* HERO BUTTONS */
+
+  .desktop__our__menu__box__grid__button__center {
+    display: flex;
+    justify-content: center;
+  }
+
+  .desktop__our__menu__box__grid__button__center a {
+    text-decoration: none;
+  }
+
+  .desktop__our__menu__box__grid__button__flex {
+    display: flex;
+    justify-content: center;
+  }
+
+  .desktop__our__menu__box__grid__button {
+    display: block;
+    background-color: #fff;
+    border: none;
+    color: #000;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
   
 
+  .desktop__our__menu__box__grid__button__hover {
+    display: block;
+    background-color: #fff;
+    color: black;
+    border: 2px solid #000;
+    margin-bottom: 30px;
+  }
+
+  .desktop__our__menu__box__grid__button__hover:hover {
+    background-color: #000;
+    color: white;
+    display: block;
+  }
+
+  .desktop__our__menu__box__grid__button__space {
+    margin-right: 100px;
+  }
+
+.desktop__our__menu__box__grid__button__space a {
+  text-decoration: none;
+}
+
+.desktop__our__menu__box__grid__button__nospace a {
+  text-decoration: none;
+}
 
 
 
@@ -318,12 +456,14 @@ input[type="submit"]:hover {
 
 
 
+
+  /* FOOTER */
 
 
   .footer__form__flex {
     display: flex;
   }
-  
+
   .footer__subscribe__form {
     margin: 20px 0;
     width: 280px;
@@ -340,12 +480,6 @@ input[type="submit"]:hover {
 
 
 
-
-
-
-
-
-  
 
   /* MOBILE --------------------------- DISPLAY: NONE; */
 
@@ -398,42 +532,51 @@ input[type="submit"]:hover {
     display: none;
   }
 
-  .hero__images {
-    max-width: 290px;
-    display: block;
-    margin: 0 auto;
-    display: none;
-  }
 
-  .hero__images__size {
-    width: 100%;
-    padding-bottom: 10px;
-    display: none;
-  }
-
-  .hero__heading__h1 {
+  .our__menu__box__grid__button__flex {
     text-align: center;
-    text-transform: uppercase;
-    font-size: 22px;
-    font-weight: bold;
-    padding: 0 15px;
-    padding-bottom: 10px;
-    margin-top: 50px;
-    line-height: 1.2;
     display: none;
   }
 
-  .hero__heading__p {
+  .our__menu__box__grid__button {
+    background-color: #fff;
+    border: none;
+    color: #000;
+    padding: 16px 32px;
     text-align: center;
-    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
     font-size: 13px;
-    padding: 0 15px;
-    padding-bottom: 30px;
-    line-height: 1.6;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;
+    cursor: pointer;
+    text-transform: uppercase;
+    display: none;
+  }
+
+  .our__menu__box__grid__button__hover {
+    background-color: #fff;
+    color: black;
+    border: 2px solid #000;
+    margin-bottom: 30px;
+    display: none;
+  }
+
+  .our__menu__box__grid__button__hover:hover {
+    background-color: #000;
+    color: white;
     display: none;
   }
 
   /* MOBILE --------------------------- DISPLAY: NONE; */
+
+
+
+
+
+
+
 
 
 

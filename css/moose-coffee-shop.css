@@ -332,7 +332,67 @@ input[type="submit"]:hover {
 
   /* HERO */
 
+<<<<<<< HEAD
   
+=======
+  .desktop__header__container {
+    margin-bottom: 100px;
+  }
+
+.shop__grid__block {
+  margin-bottom: 30px;
+}
+
+  .shop__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+  }
+  
+  .shop__grid__a {
+    text-decoration: none;
+  }
+  
+  .shop__image__max__width {
+    /* max-width: 138px; */
+  }
+  
+  .shop__image__size {
+      width: 100%;
+      object-fit: cover;
+  }
+  
+  
+  
+  .shop__grid__h3  {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    line-height: 1.2;
+    text-decoration: none;
+    color: #666666;
+    text-align: center;
+  }
+  
+  .shop__grid__p  {
+    font-size: 13px;
+    padding-bottom: 0;
+    color: #666666;
+    text-decoration: none;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+>>>>>>> parent of 34d3898... Revert "Merge branch 'master' of https://github.com/simonhoang23/Moose-Coffee-website"
 
 
 
